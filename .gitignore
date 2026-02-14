@@ -1,0 +1,9 @@
+# .NET Specific
+bin/
+obj/
+*.db
+*.db-journal
+.vs/
+.vscode/
+appsettings.Development.json
+usersecrets.json
