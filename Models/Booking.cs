@@ -1,4 +1,4 @@
-namespace RoomBooking.Models
+namespace RoomBooking.Models // <--- Pastikan ini RoomBooking.Models
 {
     public class Booking
     {
@@ -7,6 +7,6 @@ namespace RoomBooking.Models
         public string UserName { get; set; } = string.Empty;
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
-        public string Status { get; set; } = "Pending"; // Pending, Approved, Rejected
+        public string Status { get; set; } = "Pending";
     }
 }
